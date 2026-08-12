@@ -6,10 +6,10 @@
 
   <meta
     name="description"
-    content="Aerospace design and CAD portfolio of Atharv Raghav."
+    content="The aerospace engineering, CAD, UAV, and analysis portfolio of Atharv Raghav."
   >
 
-  <title>Atharv Raghav | Aerospace Design Portfolio</title>
+  <title>Atharv Raghav | Aerospace Engineering Portfolio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,24 +24,27 @@
 
 <body>
   <header class="nav wrap">
-    <a class="logo" href="#top">AR<span>.</span></a>
+    <a class="logo" href="#top" aria-label="Return to top">
+      AR<span>.</span>
+    </a>
 
     <button
       class="menu"
+      type="button"
       aria-label="Open navigation"
       aria-expanded="false"
     >
       Menu
     </button>
 
-    <nav>
+    <nav aria-label="Main navigation">
       <a href="#projects">Projects</a>
       <a href="#about">About Me</a>
 
       <a
-        href="Atharv_Raghav_Resume_SpaceX.pdf"
+        href="Atharv_Raghav_Resume.pdf"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         Résumé
       </a>
@@ -49,7 +52,7 @@
       <a
         href="https://www.linkedin.com/in/atharv-raghav/"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         LinkedIn
       </a>
@@ -57,6 +60,7 @@
   </header>
 
   <main id="top">
+    <!-- HERO -->
     <section class="hero wrap">
       <div class="hero-copy">
         <p class="kicker">Aerospace engineering portfolio</p>
@@ -68,8 +72,8 @@
 
         <p class="intro">
           I’m Atharv Raghav, an aerospace engineering student at UIUC
-          turning technical ideas into modeled, analyzed, and buildable
-          systems.
+          transforming technical concepts into modeled, analyzed, and
+          buildable systems.
         </p>
 
         <div class="actions">
@@ -83,9 +87,9 @@
 
           <a
             class="secondary"
-            href="Atharv_Raghav_Resume_SpaceX.pdf"
+            href="Atharv_Raghav_Resume.pdf"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             View résumé
           </a>
@@ -95,7 +99,7 @@
       <figure class="hero-image">
         <img
           src="images/mclaren-hero.png"
-          alt="McLaren MP4/4 CAD assembly on a racetrack"
+          alt="McLaren MP4/4 CAD assembly modeled in Siemens NX"
         >
 
         <figcaption>
@@ -105,6 +109,7 @@
       </figure>
     </section>
 
+    <!-- ABOUT -->
     <section class="about wrap" id="about">
       <p class="kicker">About me</p>
 
@@ -116,23 +121,23 @@
         <div>
           <p>
             I’m an Aerospace Engineering student at the University of
-            Illinois Urbana-Champaign, interested in aerodynamics,
+            Illinois Urbana-Champaign with interests in aerodynamics,
             autonomous flight, structures, and the tools that connect an
-            engineering idea to a physical system.
+            engineering concept to a physical system.
           </p>
 
           <p>
             My work spans parametric CAD, mechanical assemblies, UAV
             development, composite structures, and Python-based engineering
             analysis. I founded UAV@Illinois and contribute to hands-on
-            aerospace projects through the Illinois Space Society and other
+            aerospace work through the Illinois Space Society and other
             student engineering teams.
           </p>
 
           <p>
             I’m also developing AeroDesignX, an aircraft-design platform
-            combining mission evaluation, optimization, automated CAD
-            generation, and aerodynamic analysis.
+            combining mission evaluation, configuration optimization,
+            automated CAD generation, and aerodynamic analysis.
           </p>
 
           <div class="tags">
@@ -144,11 +149,11 @@
       </div>
     </section>
 
-    <div class="disciplines wrap">
+    <div class="disciplines wrap" aria-label="Engineering disciplines">
       <span>CAD &amp; Surface Modeling</span>
-      <i></i>
+      <i aria-hidden="true"></i>
       <span>Mechanical Assemblies</span>
-      <i></i>
+      <i aria-hidden="true"></i>
       <span>Aerospace Systems</span>
     </div>
 
@@ -161,8 +166,9 @@
         </div>
 
         <p>
-          A detailed Siemens NX assembly study built to develop complex
-          surface modeling, component organization, and assembly discipline.
+          A detailed Siemens NX assembly study completed to develop complex
+          surface-modeling, component-construction, and assembly-integration
+          skills.
         </p>
       </div>
 
@@ -179,7 +185,7 @@
 
         <div>
           <dt>Focus</dt>
-          <dd>Surfaces + systems</dd>
+          <dd>Surface modeling</dd>
         </div>
 
         <div>
@@ -188,13 +194,21 @@
         </div>
       </dl>
 
+      <p class="project-description">
+        Constructed and assembled a detailed representation of the
+        McLaren MP4/4 using Siemens NX. The project required individual
+        component modeling, surface-led geometry, feature organization,
+        mirrored construction, visual detailing, and integration of the
+        completed components into a full vehicle assembly.
+      </p>
+
       <div class="gallery">
         <figure class="wide">
           <div>
             <img
               class="side"
               src="images/mclaren-side.png"
-              alt="Side profile of the McLaren CAD model"
+              alt="Side profile of the McLaren MP4/4 CAD model"
             >
           </div>
 
@@ -209,7 +223,7 @@
             <img
               class="model"
               src="images/mclaren-front-three-quarter.png"
-              alt="Front three-quarter view of the McLaren CAD model"
+              alt="Front three-quarter view of the McLaren MP4/4 CAD model"
             >
           </div>
 
@@ -224,7 +238,7 @@
             <img
               class="model"
               src="images/mclaren-rear-three-quarter.png"
-              alt="Rear three-quarter view of the McLaren CAD model"
+              alt="Rear three-quarter view of the McLaren MP4/4 CAD model"
             >
           </div>
 
@@ -239,7 +253,7 @@
             <img
               class="evidence"
               src="images/front-wing-clean.png"
-              alt="Front wing with the Siemens NX feature tree"
+              alt="McLaren front wing with the Siemens NX feature tree visible"
             >
           </div>
 
@@ -254,7 +268,7 @@
             <img
               class="evidence"
               src="images/front-wing-mirror.png"
-              alt="Mirror feature selected in Siemens NX"
+              alt="Mirrored front-wing feature selected in Siemens NX"
             >
           </div>
 
@@ -275,9 +289,9 @@
         </div>
 
         <p>
-          A multicomponent SolidWorks assembly developed from supplied
-          project references, with nearly all individual part files modeled
-          and integrated into the complete drone by me.
+          A multicomponent UAV assembly developed in SolidWorks to practice
+          detailed part modeling, mechanical packaging, fastener placement,
+          and complete assembly integration.
         </p>
       </div>
 
@@ -304,17 +318,19 @@
       </dl>
 
       <p class="project-description">
-        The assembly combines a central structural enclosure, removable
-        cover plate, four truss-style arms, motor and propeller hardware,
-        internal component packaging, side panels, landing supports, and
-        fasteners. The exploded views document how the major systems and
-        hardware fit together.
+        Modeled nearly all individual components and constructed the complete
+        quadcopter assembly using supplied design references. The assembly
+        includes a removable structural enclosure, four truss-style arms,
+        motor and propeller hardware, internal component packaging, landing
+        supports, side panels, and detailed fastener placement. Exploded
+        configurations were created to document component relationships and
+        assembly order.
       </p>
 
       <p class="project-note">
         Contribution: modeled nearly all components and completed the full
-        assembly. A small number of components and the project references
-        were supplied.
+        assembly. A small number of components and the original project
+        references were supplied.
       </p>
 
       <div class="gallery drone-gallery">
@@ -322,7 +338,7 @@
           <div>
             <img
               src="images/drone-closed-assembly.png"
-              alt="Completed quadcopter CAD assembly with the top cover plate installed"
+              alt="Completed quadcopter CAD assembly with the top cover installed"
             >
           </div>
 
@@ -336,7 +352,7 @@
           <div>
             <img
               src="images/drone-open-assembly.png"
-              alt="Quadcopter CAD assembly with the top cover removed to reveal internal packaging"
+              alt="Quadcopter assembly with the top cover removed to reveal the internal packaging"
             >
           </div>
 
@@ -364,7 +380,7 @@
           <div>
             <img
               src="images/drone-top-view.png"
-              alt="Top orthographic view of the quadcopter assembly with the enclosure open"
+              alt="Top view of the quadcopter assembly with the enclosure open"
             >
           </div>
 
@@ -378,7 +394,7 @@
           <div>
             <img
               src="images/drone-side-view.png"
-              alt="Side orthographic view of the quadcopter assembly"
+              alt="Side view of the quadcopter assembly"
             >
           </div>
 
@@ -392,7 +408,7 @@
           <div>
             <img
               src="images/drone-exploded-view.png"
-              alt="Exploded view showing the drone arms, motors, propellers, enclosure, cover plate, side panels, internal components, and fasteners"
+              alt="Exploded quadcopter view showing the arms, motors, propellers, enclosure, panels, internal components, and fasteners"
             >
           </div>
 
@@ -418,6 +434,7 @@
       </div>
     </section>
 
+    <!-- PROCESS -->
     <section class="process" id="process">
       <div class="wrap process-grid">
         <div>
@@ -427,10 +444,10 @@
 
         <div>
           <p>
-            The portfolio shows both the finished objects and the
-            construction behind them. Feature histories, assembly views,
-            and exploded configurations provide evidence of the modeling
-            and integration process.
+            The portfolio presents both the finished assemblies and the
+            construction behind them. Feature histories, individual-part
+            views, orthographic studies, and exploded configurations provide
+            evidence of the modeling and integration process.
           </p>
 
           <ol>
@@ -443,6 +460,7 @@
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="wrap">
     <span class="logo">AR<span>.</span></span>
 
@@ -452,20 +470,22 @@
       <a
         href="https://www.linkedin.com/in/atharv-raghav/"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         LinkedIn
       </a>
 
       <a
-        href="Atharv_Raghav_Resume_SpaceX.pdf"
+        href="Atharv_Raghav_Resume.pdf"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       >
         Résumé
       </a>
 
-      <a href="#top">Back to top ↑</a>
+      <a href="#top">
+        Back to top ↑
+      </a>
     </div>
   </footer>
 
